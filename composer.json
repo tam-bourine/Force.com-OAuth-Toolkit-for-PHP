@@ -1,0 +1,13 @@
+{
+    "name": "tam-bourine/force-oauth",
+    "authors": [
+        {
+            "name": "mikakane",
+            "email": "mikakane2@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+    	"classmap":"./"
+    }
+}
