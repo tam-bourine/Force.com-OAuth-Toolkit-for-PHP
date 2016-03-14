@@ -7,6 +7,28 @@ PREREQUISITES
 
 HOW TO INSTALL
 ==============
+Step 0. Use Coomposer
+-------------------------------------------------------------------
+
+composer.jsonにて
+
+```    "repositories":[
+        {
+            "type":"vcs",
+            "url":"https://github.com/tam-bourine/Force.com-OAuth-Toolkit-for-PHP.git"
+        }
+    ],
+```
+
+の記述を追加し、
+
+```
+$ composer require tam-bourine/force-oauth
+```
+
+とコマンドを叩くとvendor以下にファイルを持ってこれるようになりました。
+
+
 Step 1. Include oauth.php in php script which needs authentication.
 -------------------------------------------------------------------
     require_once 'oauth.php';
